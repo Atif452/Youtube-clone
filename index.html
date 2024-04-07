@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+</head>
+<body>
+    <header>
+        <div class="left-header">
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="logo">
+                <img src="assets/logo.png" alt="">
+            </div>
+        </div>
+        <div class="center-header">
+            <div class="search">
+                <div class="input">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="mic-icon">
+                <i class="fa-solid fa-microphone"></i>
+            </div>
+        </div>
+        <div class="right-header">
+            <div class="upload-icon">
+                <i class="fa-solid fa-upload"></i>
+            </div>
+            <div class="notification-icon">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+            <div class="profile-icon">
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="side-bar">
+            <div class="side-bar-top">
+                <div class="home">
+                    <div class="home-icon">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <div>
+                        <p>Home</p>
+                    </div>
+                </div>
+                <div class="shorts">
+                    <div class="shorts-icon">
+                        <i class="fa-solid fa-s"></i>
+                    </div>
+                    <div>
+                        <p>Shorts</p>
+                    </div>
+                </div>
+                <div class="subscription">
+                    <div class="Subscription-icon">
+                        <i class="fa-solid fa-money-check-dollar"></i>
+                    </div>
+                    <div>
+                        <p>Subscription</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="side-bar-second">
+                <div class="channel">
+                    <div class="channel-icon">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <div>
+                        <p>Your Channel</p>
+                    </div>
+                </div>
+                <div class="history">
+                    <div class="history-icon">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                    </div>
+                    <div>
+                        <p>History</p>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <div class="playlist-icon">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <div>
+                        <p>Playlist</p>
+                    </div>
+                </div>
+                <div class="your-video">
+                    <div class="your-video-icon">
+                        <i class="fa-solid fa-file-video"></i>
+                    </div>
+                    <div>
+                        <p>Your Videos</p>
+                    </div>
+                </div>
+                <div class="watch-later">
+                    <div class="watch-later-icon">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <div>
+                        <p>Watch later</p>
+                    </div>
+            
+                </div>
+                <div class="liked">
+                    <div class="liked-icon">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                    </div>
+                    <div>
+                        <p>Liked videos</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+
+        <section class="videos-section">
+            <div class="top-bar"></div>
+            <div class="videos-feed">
+                <div class="videos-main-div">
+                    <div class="thumbnail">
+                        <img src="assets/image2.png" alt="">
+                    </div>
+                    <div class="channel-profile">
+                        <div class="profile-image">
+                            <img src="assets/image3.png" alt="">
+                        </div>
+                        <div class="title">
+                            <p>Title of the video Goes here</p>
+                        </div>
+                    </div>
+                    <div class="channel-name">
+                        <p>channel name</p>
+                    </div>
+                </div>
+
+                <div class="videos-main-div">
+                    <div class="thumbnail">
+                        <img src="assets/image1.png" alt="">
+                    </div>
+                    <div class="channel-profile">
+                        <div class="profile-image">
+                            <img src="assets/image1.png" alt="">
+                        </div>
+                        <div class="title">
+                            <p>Title of the video Goes here</p>
+                        </div>
+                    </div>
+                    <div class="channel-name">
+                        <p>channel name</p>
+                    </div>
+                </div>
+                <div class="videos-main-div">
+                    <div class="thumbnail">
+                        <img src="assets/image2.png" alt="">
+                    </div>
+                    <div class="channel-profile">
+                        <div class="profile-image">
+                            <img src="assets/image2.png" alt="">
+                        </div>
+                        <div class="title">
+                            <p>Title of the video Goes here</p>
+                        </div>
+                    </div>
+                    <div class="channel-name">
+                        <p>channel name</p>
+                    </div>
+                </div>
+                <div class="videos-main-div">
+                    <div class="thumbnail">
+                        <img src="assets/image3.png" alt="">
+                    </div>
+                    <div class="channel-profile">
+                        <div class="profile-image">
+                            <img src="assets/image3.png" alt="">
+                        </div>
+                        <div class="title">
+                            <p>Title of the video Goes here</p>
+                        </div>
+                    </div>
+                    <div class="channel-name">
+                        <p>channel name</p>
+                    </div>
+                </div>
+                <div class="videos-main-div">
+                    <div class="thumbnail">
+                        <img src="assets/image4.png" alt="">
+                    </div>
+                    <div class="channel-profile">
+                        <div class="profile-image">
+                            <img src="assets/image4.png" alt="">
+                        </div>
+                        <div class="title">
+                            <p>Title of the video Goes here</p>
+                        </div>
+                    </div>
+                    <div class="channel-name">
+                        <p>channel name</p>
+                    </div>
+                </div>
+                <div class="videos-main-div">
+                    <div class="thumbnail">
+                        <img src="assets/image2.png" alt="">
+                    </div>
+                    <div class="channel-profile">
+                        <div class="profile-image">
+                            <img src="assets/image3.png" alt="">
+                        </div>
+                        <div class="title">
+                            <p>Title of the video Goes here</p>
+                        </div>
+                    </div>
+                    <div class="channel-name">
+                        <p>channel name</p>
+                    </div>
+                </div>
+                <div class="videos-main-div">
+                    <div class="thumbnail">
+                        <img src="assets/image1.png" alt="">
+                    </div>
+                    <div class="channel-profile">
+                        <div class="profile-image">
+                            <img src="assets/image4.png" alt="">
+                        </div>
+                        <div class="title">
+                            <p>Title of the video Goes here</p>
+                        </div>
+                    </div>
+                    <div class="channel-name">
+                        <p>channel name</p>
+                    </div>
+                </div>
+                <div class="videos-main-div">
+                    <div class="thumbnail">
+                        <img src="assets/image2.png" alt="">
+                    </div>
+                    <div class="channel-profile">
+                        <div class="profile-image">
+                            <img src="assets/image3.png" alt="">
+                        </div>
+                        <div class="title">
+                            <p>Title of the video Goes here</p>
+                        </div>
+                    </div>
+                    <div class="channel-name">
+                        <p>channel name</p>
+                    </div>
+                </div>
+
+                <div class="videos-main-div">
+                    <div class="thumbnail">
+                        <img src="assets/image1.png" alt="">
+                    </div>
+                    <div class="channel-profile">
+                        <div class="profile-image">
+                            <img src="assets/image1.png" alt="">
+                        </div>
+                        <div class="title">
+                            <p>Title of the video Goes here</p>
+                        </div>
+                    </div>
+                    <div class="channel-name">
+                        <p>channel name</p>
+                    </div>
+                </div>
+                <div class="videos-main-div">
+                    <div class="thumbnail">
+                        <img src="assets/image2.png" alt="">
+                    </div>
+                    <div class="channel-profile">
+                        <div class="profile-image">
+                            <img src="assets/image2.png" alt="">
+                        </div>
+                        <div class="title">
+                            <p>Title of the video Goes here</p>
+                        </div>
+                    </div>
+                    <div class="channel-name">
+                        <p>channel name</p>
+                    </div>
+                </div>
+                <div class="videos-main-div">
+                    <div class="thumbnail">
+                        <img src="assets/image3.png" alt="">
+                    </div>
+                    <div class="channel-profile">
+                        <div class="profile-image">
+                            <img src="assets/image3.png" alt="">
+                        </div>
+                        <div class="title">
+                            <p>Title of the video Goes here</p>
+                        </div>
+                    </div>
+                    <div class="channel-name">
+                        <p>channel name</p>
+                    </div>
+                </div>
+                <div class="videos-main-div">
+                    <div class="thumbnail">
+                        <img src="assets/image4.png" alt="">
+                    </div>
+                    <div class="channel-profile">
+                        <div class="profile-image">
+                            <img src="assets/image4.png" alt="">
+                        </div>
+                        <div class="title">
+                            <p>Title of the video Goes here</p>
+                        </div>
+                    </div>
+                    <div class="channel-name">
+                        <p>channel name</p>
+                    </div>
+                </div>
+                <div class="videos-main-div">
+                    <div class="thumbnail">
+                        <img src="assets/image2.png" alt="">
+                    </div>
+                    <div class="channel-profile">
+                        <div class="profile-image">
+                            <img src="assets/image3.png" alt="">
+                        </div>
+                        <div class="title">
+                            <p>Title of the video Goes here</p>
+                        </div>
+                    </div>
+                    <div class="channel-name">
+                        <p>channel name</p>
+                    </div>
+                </div>
+                <div class="videos-main-div">
+                    <div class="thumbnail">
+                        <img src="assets/image1.png" alt="">
+                    </div>
+                    <div class="channel-profile">
+                        <div class="profile-image">
+                            <img src="assets/image4.png" alt="">
+                        </div>
+                        <div class="title">
+                            <p>Title of the video Goes here</p>
+                        </div>
+                    </div>
+                    <div class="channel-name">
+                        <p>channel name</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,57 @@
+
+  @media only screen and (max-width: 600px) {
+    header{
+        /* width: 40px; */
+        justify-content: space-between;
+    }
+    .logo img{
+      width: 80px;
+    }
+    .mic-icon, .upload-icon{
+        display: none;
+    }
+   .center-header{
+    width: 30%;
+    justify-content: flex-end;
+
+   }
+   .search{
+    width: 100%;
+   }
+   .search input{
+    width: 20px;
+    display: none;
+   }
+   .right-header{
+    justify-content: flex-end;
+    gap: 5px;
+   }
+    .side-bar{
+      display: none;
+    }
+    .videos-section{
+        width: 100vw;
+        margin: auto;
+        /* padding: 0; */
+    }
+  }
+  
+  
+  @media only screen and (min-width: 600px) and (max-width: 962px) {
+    .side-bar p{
+        display: none;
+      }
+      .videos-section{
+        margin-left: 10%;
+      }
+      .side-bar{
+        width: 10%;
+      }
+      .videos-main-div{
+        width: 200px;
+      }
+    
+  }
+  
+  
+  
